@@ -1,9 +1,10 @@
+// RootLayout.tsx
 import { Work_Sans } from "next/font/google";
-
 import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
+// import Room from "./Room"; // Changed from named import to default import
+import Room from "./Room"; // Adjust the path as needed
 
-import Room from "./Room";
 
 export const metadata = {
   title: "Figma Clone",
